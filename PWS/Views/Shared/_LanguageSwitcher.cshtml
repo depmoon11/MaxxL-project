@@ -1,0 +1,4 @@
+﻿<select onchange="location = this.value;">
+    <option value="@Url.Action("ChangeLanguage", "Home", new { culture = "en" ,returnUrl = Context.Request.Path})">English</option>
+    <option value="@Url.Action("ChangeLanguage", "Home", new { culture = "fr" ,returnUrl = Context.Request.Path})">Français</option>
+</select>

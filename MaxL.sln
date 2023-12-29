@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxL", "PWS\MaxL.csproj", "{0F939F53-5383-4987-8162-F77A13D4E535}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxL.Services", "PWS.Services\MaxL.Services.csproj", "{3B186EF7-B42E-4B88-938C-99C35ACD8344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F939F53-5383-4987-8162-F77A13D4E535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F939F53-5383-4987-8162-F77A13D4E535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F939F53-5383-4987-8162-F77A13D4E535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F939F53-5383-4987-8162-F77A13D4E535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B186EF7-B42E-4B88-938C-99C35ACD8344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B186EF7-B42E-4B88-938C-99C35ACD8344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B186EF7-B42E-4B88-938C-99C35ACD8344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B186EF7-B42E-4B88-938C-99C35ACD8344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3290D0CA-0EA2-41CF-908A-089B3918884B}
+	EndGlobalSection
+EndGlobal

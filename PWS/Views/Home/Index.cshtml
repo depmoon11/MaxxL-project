@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<header class="masthead" style="background-image: url('assets/img/main-pic.jpg')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading">
+                    <h1>News blog by Lasun</h1>
+                    <span class="subheading"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<!-- Main Content-->
+<div id="language-switcher">
+    @await Html.PartialAsync("_LanguageSwitcher")
+</div>
+<div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            <!-- Post preview-->
+            <main class="mb-4">
+                <p>
+                    Greetings! I'm Maxim, a passionate journalist with a keen eye for the global pulse. As a seasoned observer of world events, I am dedicated to unraveling the complex tapestry of international news and sharing compelling narratives that resonate with a global audience.
+                    My journey as a news columnist has taken me to the heart of diverse cultures, where I've had the privilege of reporting on impactful stories that shape our interconnected world. From the bustling streets of metropolises to the serene corners of remote regions, I strive to capture the essence of our shared human experience.
+                    With a background in journalism and a commitment to truth-seeking, I embark on each assignment with a curiosity to understand the nuances of geopolitical events, socio-economic shifts, and the stories that often go unnoticed. Through my writing, I aim to bridge gaps, foster understanding, and inspire dialogue on the issues that matter most.
+                    Join me on this captivating journey as we explore the dynamic landscapes of global affairs together. Let's delve into the news, analyze its implications, and navigate the intricate web of information that shapes our world..
+                </p>
+            </main>
+        </div>
+    </div>
+</div>
